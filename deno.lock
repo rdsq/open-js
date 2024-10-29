@@ -1,0 +1,17 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:@types/node@*": "22.3.0"
+  },
+  "npm": {
+    "@types/node@22.3.0": {
+      "integrity": "sha512-nrWpWVaDZuaVc5X84xJ0vNrLvomM205oQyLsRt7OHNZbSHslcWsvgFR7O7hire2ZonjLrWBbedmotmIlJDVd6g==",
+      "dependencies": [
+        "undici-types"
+      ]
+    },
+    "undici-types@6.18.2": {
+      "integrity": "sha512-5ruQbENj95yDYJNS3TvcaxPMshV7aizdv/hWYjGIKoANWKjhWNBsr2YEuYZKodQulB1b8l7ILOuDQep3afowQQ=="
+    }
+  }
+}

@@ -8,5 +8,6 @@
     "exclude": [
         ".github",
         ".vscode"
-    ]
+    ],
+    "exports": "./mod.ts"
 }
