@@ -4,6 +4,8 @@ import { spawn } from 'node:child_process';
 /**
  * Open a resource, such as a URL
  * @param resource The resource to open
+ * @example
+ * await open('https://example.com');
  */
 export default function open(resource: string): Promise<void> {
     const command = createNativeCommand(resource);
