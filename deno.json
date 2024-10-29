@@ -1,0 +1,12 @@
+{
+    "name": "@rdsq/open",
+    "version": "1.0.0",
+    "fmt": {
+        "indentWidth": 4,
+        "singleQuote": true
+    },
+    "exclude": [
+        ".github",
+        ".vscode"
+    ]
+}
