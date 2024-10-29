@@ -13,9 +13,7 @@ export default function createNativeCommand(resource: string): {
     const args: string[] = [];
     const os = process.platform;
     if (os === 'win32') {
-        command = 'cmd';
-        args.push('/s', '/c', 'start', '', '/b');
-        resource = resource.replaceAll('&', '^&');
+        command = 'explorer';
     } else if (os === 'darwin') {
         command = 'open';
     } else {
